@@ -1,3 +1,15 @@
 body {
-color: navy;
+color: #0BA6F3;
+}
+h1 {
+color: white;
+background: #17249A;
+font-style: normal;
+font-size: 50px;
+font-family: Trattatello, fantasy;
+}
+background: #F9C51B;
+}
+p {
+color: #1FD5C9;
 }
