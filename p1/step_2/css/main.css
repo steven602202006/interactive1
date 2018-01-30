@@ -1,8 +1,60 @@
 body {
-color: #0BA6F3;
-font-family: Bradley Hand, cursive;
+color: black;
+font-family: Didot, serife;
 font-size: 25px;
 }
-p {
-width: 400px;
+div {
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;
+    width: 400px;
 }
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.div1 {
+      padding: 10px;
+      width: 300px;
+      text-align: justify;
+      margin-left: 100px;
+}
+.div2 {
+      padding: 10px;
+      width: 300px;
+      text-align:justify;
+      margin-left: 450px;
+}
+.div3 {
+        padding: 10px;
+        width: 300px;
+        text-align:justify;
+        margin-left: 800px;
+}
+.div4 {
+          padding: 10px;
+          width: 300px;
+          text-align:justify;
+          margin-left: 1150px;
+}
+.div5 {
+    transform: rotate(7deg);
+}
+.div6 {
+    transform: rotate(14deg);
+}
+.div7 {
+    transform: rotate(21deg);
+}
+.div8 {
+    transform: rotate(28deg);
+}
+.div9 {
+    transform: rotate(35deg);
+}
+
