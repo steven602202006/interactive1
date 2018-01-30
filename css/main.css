@@ -1,15 +1,43 @@
 body {
 color: #0BA6F3;
+font-family: Impact;
+font-size: 25px;
 }
 h1 {
 color: white;
 background: #17249A;
 font-style: normal;
 font-size: 50px;
-font-family: Trattatello, fantasy;
+font-family: Impact;
 }
 background: #F9C51B;
 }
 p {
 color: #1FD5C9;
+font-family: Snell Roundhand, cursive;
 }
+ body {
+      animation: colorchange 10s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 10s; /* Chrome and Safari */
+      -webkit-animation-iteration-count: infinite; /* Chrome and Safari */
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: #7DBCE1;}
+      25%  {background: #2138CB;}
+      50%  {background: ##77DEDE;}
+      75%  {background: ##249485;}
+      100% {background: #7DBCE1;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #7DBCE1;}
+      25%  {background: #2138CB;}
+      50%  {background: ##77DEDE;}
+      75%  {background: ##249485;}
+      100% {background: #7DBCE1;}
+    }
