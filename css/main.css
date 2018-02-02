@@ -18,7 +18,7 @@ font-family: Snell Roundhand, cursive;
 }
 #projects{
 display: grid;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(5, 1fr);
 grid-gap: 10px;
 }
