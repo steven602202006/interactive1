@@ -16,11 +16,17 @@ p {
 color: #1FD5C9;
 font-family: Snell Roundhand, cursive;
 }
+#exercises{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-gap: 10px;
+}
 #projects{
 display: grid;
 grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(5, 1fr);
-grid-gap: 10px;
+grid-gap: 50px;
 }
 
 #col1{
@@ -57,4 +63,39 @@ float: left;*/
       50%  {background: ##77DEDE;}
       75%  {background: ##249485;}
       100% {background: #7DBCE1;}
-    }
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
