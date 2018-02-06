@@ -22,16 +22,18 @@ grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(1, 1fr);
 grid-gap: 10px;
 }
+#col5{
+  grid-column-start:2;
+}
 #projects{
 display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(1, 1fr);
 grid-gap: 50px;
 }
 
 #col1{
-  grid-column-start:2;
-
+  grid-column-start:1;
 }
 
 .h{
