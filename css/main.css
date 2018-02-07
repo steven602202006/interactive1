@@ -14,7 +14,8 @@ background: #F9C51B;
 }
 p {
 color: #1FD5C9;
-font-family: Snell Roundhand, cursive;
+font-family: ariel;
+background-color: lightblue
 }
 #exercises{
 display: grid;
@@ -100,4 +101,42 @@ float: left;*/
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+ol {
+    background: #848DDF;
+    padding: 20px;
+    color: white;
+}
+ol li {
+    background: #BDC2EF;
+    padding: 5px;
+    margin-left: 35px;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #BDC2EF;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #3D4FE9;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #0F26F9;
+    color: white;
+}
+p {
+    border-bottom: 6px solid white;
 }
