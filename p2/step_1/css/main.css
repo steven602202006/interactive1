@@ -114,6 +114,8 @@ input#img-7:checked ~ .nav-dots label#img-dot-12,
 input#img-7:checked ~ .nav-dots label#img-dot-13,
 input#img-7:checked ~ .nav-dots label#img-dot-14,
 input#img-7:checked ~ .nav-dots label#img-dot-15,
-input#img-7:checked ~ .nav-dots label#img-dot-16, {
+input#img-7:checked ~ .nav-dots label#img-dot-16, 
+input#img-7:checked ~ .nav-dots label#img-dot-17, 
+input#img-7:checked ~ .nav-dots label#img-dot-18, {
   background: rgba(0, 0, 0, 0.8);
 }
