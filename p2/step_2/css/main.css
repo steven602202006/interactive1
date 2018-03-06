@@ -1,0 +1,15 @@
+#iphone {
+	width: 620px;
+	height: 1234px;
+	background: url("../iPhone-X-how-to-save-Animoji-with-3D-Touch-screenshot-008.jpg");
+}
+
+#screen {
+	width: 530px;
+	height: 888px;
+	background: white;
+	overflow: scroll;
+	position: absolute;
+	left: 52px;
+	top: 204px
+}
