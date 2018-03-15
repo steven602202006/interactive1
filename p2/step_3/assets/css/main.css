@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body { 
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+.item {
+	padding: 50px;
+	transition: all 500ms ease;
+	float: left;
+	display: none;
+}
+
+.item img {
+	width: 100px;
+}
+
+
+.item.big img {
+	width: 300px;
+}
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(5); /* or some other value */
+    transform:scale(5);
+}
+
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+    background: transparent;b 
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    position: absolute;
+}
