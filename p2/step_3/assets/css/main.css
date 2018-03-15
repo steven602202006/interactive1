@@ -46,11 +46,9 @@ textarea {
 }
 div.Back{
     z-index: -1000;
-    position: absolute;
     position: fixed;
-    bottom: 80;
-    right: 100;
+    bottom: 325px;
+    right: 200px;
+    overflow-y: scroll;
+    font-size:100px;
     }
-div.a {
-    font-size:200px;
-}
