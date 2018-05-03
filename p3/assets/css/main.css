@@ -1,0 +1,164 @@
+body{
+  background: white;
+  min-height: 100vh;
+}
+
+p {
+  margin: 0px;
+}
+
+#click {
+  color: red;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 400px;
+  position: relative;
+  mix-blend-mode: screen;
+}
+
+#move {
+  color: blue;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 380px;
+  position: absolute;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+#out {
+  color: green;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 390px;
+  position: absolute;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+.typing {
+  color: orange;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 410px;
+  top: 100px;
+  left: 0px;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  position: relative;
+}
+
+.search {
+  width: 100%;
+  position: fixed;
+}
+
+.searchTerm {
+  float: center;
+  width: 200%;
+  border: 3px white;
+  padding: 5px;
+  height: 50px;
+  outline: none;
+  color: white;
+  font-size: 40px;
+  box-shadow: 0px 0px 10px white;
+}
+
+.searchTerm:focus{
+  color: black;
+  font-size: 40px;
+}
+
+#blue {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: blue;
+  top: 20px;
+  right: 20px;
+  position: fixed;
+  z-index:1000;
+}
+#yellow {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: orange;
+  top: 60px;
+  right: 20px;
+  position: fixed;
+  z-index:1000;
+}
+#red {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: red;
+  top: 100px;
+  right: 20px;
+  position: fixed;
+  z-index:1000;
+}
+#green {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: green;
+  top: 140px;
+  right: 20px;
+  position: fixed;
+  z-index:1000;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: fixed;
+  top: 45%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+@media print {
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  border: 5px black;
+  font-size: 30px;
+  text-align: center;
+}
+
+#click {
+  color: red;
+  font-size: 20px;
+  font-family: Times New Roman;
+}
+
+#move {
+  color: blue;
+  font-family: Times New Roman;
+  font-size: 20px;
+  pointer-events: none;
+}
+
+#out {
+  color: green;
+  font-family: Times New Roman;
+  font-size: 20px;
+  position: absolute;
+  pointer-events: none;
+  text-align: center;
+}
+
+.typing {
+  color: orange;
+  font-family: Times New Roman;
+  font-size: 20px;
+  pointer-events: none;
+}
+
+}
+
+
+
