@@ -11,7 +11,7 @@ p {
   color: red;
   font-family: 'Press Start 2P', cursive;
   font-size: 400px;
-  position: relative;
+  position: absolute;
   mix-blend-mode: screen;
 }
 
@@ -130,25 +130,24 @@ p {
 }
 
 #click {
-  color: red;
+  color: black;
   font-size: 20px;
   font-family: Times New Roman;
 }
 
 #move {
-  color: blue;
+  color: black;
   font-family: Times New Roman;
   font-size: 20px;
   pointer-events: none;
 }
 
 #out {
-  color: green;
+  color: black;
   font-family: Times New Roman;
   font-size: 20px;
-  position: absolute;
-  pointer-events: none;
-  text-align: center;
+  align-content: center;
+
 }
 
 .typing {
